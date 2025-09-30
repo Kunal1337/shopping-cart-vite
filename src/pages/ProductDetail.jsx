@@ -40,9 +40,6 @@ const ProductDetail = () => {
         <p className="product-price">Price: ${product.price}</p>
         <p className="product-description">{product.description}</p>
         <div className="button-group">
-          <button className="back-button" onClick={() => navigate(-1)}>
-            Back
-          </button>
           <button onClick={addToCart}>Add to Cart</button>
         </div>
       </div>
